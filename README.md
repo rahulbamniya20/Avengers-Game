@@ -1,1 +1,3 @@
-This code requires the pygame library to be installed on your computer. To run the game, open game_code.py with all files in the same folder.
+# avengers_game
+This code needs pygame library installed on your pc.
+open game_code.py , with all files in same folder to run the game
