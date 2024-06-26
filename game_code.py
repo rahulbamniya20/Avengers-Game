@@ -1,4 +1,4 @@
-# IMPORTING IMPORTANT LIBRARY
+# IMPORTING LIBRARIES
 import pygame
 import random
 import math
@@ -169,7 +169,7 @@ while running:
 
 # ENEMY MOVEMENT
     for i in range(num_enemy):
-        # HERE IF ENEMY TOUCHES THE PLAYER GAME SHOULD BE OVER
+        # HERE IF ENEMY TOUCHES THE PLAYER, THE GAME SHOULD BE OVER
         if enemy_y[i]>440:
             for j in range(num_enemy):
                 enemy_y[j]=1000
@@ -208,5 +208,5 @@ while running:
     player(playerx, playery)
     s_score(text_x,text_y)
 
-# most important updating the display
+# Most important updating the display
     pygame.display.update()
